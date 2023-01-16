@@ -9,6 +9,7 @@ import Base.TestBase;
 import Pages.CartPage;
 
 public class CartPageTest extends TestBase {
+	// edited from github
 	CartPage cart;
 	@BeforeMethod
 	public void setup() throws Exception
