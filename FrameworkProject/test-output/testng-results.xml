@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="0" failed="0" skipped="9">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-04T12:01:32 IST" name="Default suite" finished-at="2023-01-04T12:01:40 IST" duration-ms="7494">
+    <groups>
+    </groups>
+    <test started-at="2023-01-04T12:01:32 IST" name="Default test" finished-at="2023-01-04T12:01:40 IST" duration-ms="7494">
+      <class name="TestCases.InventoryPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:32 IST" name="setup" finished-at="2023-01-04T12:01:40 IST" duration-ms="7216" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAtoZsortOption()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyAtoZsortOption" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAtoZsortOption -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900087" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900098" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBackpack()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyBackpack" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackpack -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900118" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900124" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCart()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyCart" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCart -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900145" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900152" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHighToLowPriceSortOption()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyHighToLowPriceSortOption" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighToLowPriceSortOption -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900160" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900163" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLowToHighPriceSortOption()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyLowToHighPriceSortOption" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLowToHighPriceSortOption -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900189" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900196" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPeekLogo()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyPeekLogo" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPeekLogo -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900210" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900215" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProduct()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyProduct" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900244" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900253" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTwitterLogo()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyTwitterLogo" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwitterLogo -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900260" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900262" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyZtoAsortingOption()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="verifyZtoAsortingOption" finished-at="2023-01-04T12:01:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at Pages.InventoryPage.<init>(InventoryPage.java:38)
+at TestCases.InventoryPageTest.setup(InventoryPageTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalAccessException: Can not set static final org.openqa.selenium.WebElement field Pages.InventoryPage.dropDown to com.sun.proxy.$Proxy13
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:76)
+at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(UnsafeFieldAccessorImpl.java:80)
+at java.base/jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(UnsafeQualifiedStaticObjectFieldAccessorImpl.java:77)
+at java.base/java.lang.reflect.Field.set(Field.java:780)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:115)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyZtoAsortingOption -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestCases.InventoryPageTest@3d1cfad4]" started-at="2023-01-04T12:01:40 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672813900276" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- TestCases.InventoryPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
