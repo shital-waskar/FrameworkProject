@@ -25,7 +25,7 @@ public class LoginPageTest extends TestBase {
 		String expectedTitle="Swag Labs";
 		Assert.assertEquals(actualTitle, expectedTitle);
 	}
-	@Test(priority=0, groups="sanity")
+	@Test( groups="sanity")
 	public void verifyUrlTest()
 	{
 		String actualUrl=loginPage.verifyUrl();
@@ -33,19 +33,19 @@ public class LoginPageTest extends TestBase {
 		//String expectedUrl="Url";
 	    Assert.assertEquals(actualUrl, expectedUrl);
 	}
-	@Test(priority=1,groups= {"sanity","Regression"})
+	@Test(groups= {"sanity","Regression"})
 	public void verifyTitleLogoTest()
 	{
 		 boolean actual =loginPage.verifyTitleLogo();
 		 Assert.assertEquals(actual, true);
 	}
-	@Test
+	@Test(groups= {"sanity","Regretion"})
 	public void verifyBotLogotest()
 	{
 		boolean actual = loginPage.verifyBotLogo();
 		Assert.assertEquals(actual, true);
 	}
-	@Test(priority=0,groups="sanity")
+	@Test(groups="sanity")
 	public void verifyInventoryUrl() throws Exception
 	{
 //		login.enterUsername();
