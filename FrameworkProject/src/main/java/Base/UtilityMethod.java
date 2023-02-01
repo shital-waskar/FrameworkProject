@@ -11,6 +11,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UtilityMethod {
+	
+	
+	// Utility methods edited at frameworkbranch
 
 	
 	private static final int WebElement = 0;
